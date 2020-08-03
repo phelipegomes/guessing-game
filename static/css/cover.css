@@ -513,7 +513,7 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
   border-bottom-right-radius: 15px;
   background-color: #4531f5;
   background-image: linear-gradient(0deg, #4531f5 0%, #08AEEA 100%);
-  height: 736px;
+  height: 666px;
   margin-bottom: 16px;
 }
 
@@ -522,7 +522,7 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
   border-bottom-right-radius: 15px;
   background-color: #bceada;
   background-image: linear-gradient(0deg, #bceada 0%, #08AEEA 100%);
-  height: 736px;
+  height: 666px;
   margin-bottom: 16px;
 }
 
@@ -531,12 +531,12 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
   border-bottom-right-radius: 15px;
   background-color: #2AF598;
   background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 100%);
-  height: 736px;
+  height: 666px;
   margin-bottom: 16px;
 }
 
 .img_triangulo{
-  margin-top: 50px;
+  margin-top: 20px;
   display: inline;
   position: relative;
   width: 100px;
@@ -544,7 +544,7 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
 }
 
 .img_escada{
-  margin-top: 50px;
+  margin-top: 20px;
   display: inline;
   position: relative;
   width: 95px;
@@ -562,12 +562,10 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
 .img_box_game{
   background-repeat: no-repeat;
   background-size: 100%;
-  margin-top: 25px;
   position: relative;
   display: inline-block;
   width: 250px;
   height: 250px;
-  background-color: #262626;
 }
 
 
