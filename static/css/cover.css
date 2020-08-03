@@ -2,8 +2,9 @@
 
   body {
     margin: 0;
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    background: #00C9FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #00C9FF,  #92FE9D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   }
 
@@ -344,7 +345,6 @@
     display: -ms-flexbox;
     display: flex;
     color: #fff;
-    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
   }
 
   .cover-container {
@@ -501,7 +501,8 @@
   border-bottom-right-radius: 15px;
   background-color: #4531f5;
   background-image: linear-gradient(0deg, #4531f5 0%, #08AEEA 100%);
-  height: 780px;
+  height: 736px;
+  margin-bottom: 16px;
 }
 
 .ct_home{
@@ -509,7 +510,8 @@
   border-bottom-right-radius: 15px;
   background-color: #bceada;
   background-image: linear-gradient(0deg, #bceada 0%, #08AEEA 100%);
-  height: 860px;
+  height: 736px;
+  margin-bottom: 16px;
 }
 
 .ct_jogar{
@@ -517,7 +519,8 @@
   border-bottom-right-radius: 15px;
   background-color: #2AF598;
   background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 100%);
-  height: 750px;
+  height: 736px;
+  margin-bottom: 16px;
 }
 
 .img_triangulo{
@@ -548,13 +551,15 @@
   /* texto */
 
   .p_home_1{
+    text-shadow: 2px 2px black;
     text-align: center;
     padding-top :20px;
-    font-size: 1cm;
+    font-size: 0.8cm;
     font-family: sness;
   }
 
   .p_home_2{
+    text-shadow: 2px 2px black;
     text-align: center;
     padding-top : 20px;
     font-size: 0.5cm;
@@ -562,6 +567,7 @@
     line-height: 0.5cm;
 }
   .text_content_2 {
+    text-shadow: 2px 2px black;
     margin: 15px;
     padding-top: 165px;
     font-family: sness;
