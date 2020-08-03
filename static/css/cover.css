@@ -471,10 +471,22 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
 
   .tab_betty{
     border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
   }
 
   .tab_home{
     border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+  }
+
+  .tab_regras{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .tab_jogar{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
 
   ul {
@@ -547,8 +559,23 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
   height: 110px;
 }
 
+.img_box_game{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 25px;
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  background-color: #262626;
+}
+
 
   /* texto */
+
+  p{
+    margin-bottom: 0.5rem;
+  }
 
   .p_home_1{
     text-shadow: 2px 2px black;

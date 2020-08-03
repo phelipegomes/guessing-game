@@ -40,6 +40,7 @@
   .img_triangulo{content: url(img/triangulo.png);}
   .img_escada{content: url(img/escada.png);}
   .img_gameboy{content: url(img/gameboy.png);}
+  .img_box_game{background-image: url(img/box_game.png);}
 
   /* Fontes customizadas */
 
@@ -111,10 +112,10 @@
                   <p class="p_home_2">Temos como numero secreto o 46.</p>
                 </div>
                 <div class="container">
-                  <p class="p_home_2">Foi inserido o numero 50, sera indicado inserir um numero menor, portanto o numero esta entre 0 e 50.</p>
+                  <p class="p_home_2">Foi inserido o numero 50, sera indicado inserir um numero menor, portanto o numero esta entre 0 e 49.</p>
                 </div>
                 <div class="container">
-                  <p class="p_home_2">Dessa forma, ao inserir 40, o jogo ira dizer para inserir um numero maior, reduzindo o raio para 40 e 50.</p>
+                  <p class="p_home_2">Dessa forma, ao inserir 40, o jogo ira dizer para inserir um numero maior, reduzindo o raio para 40 e 49.</p>
                 </div>
                 <div class="container">
                   <p class="p_home_1">Boa sorte !</p>
@@ -124,7 +125,7 @@
           </li>
           <li>
             <input type="radio" name="tabs" class="rd_tabs" id="tab3">
-            <label class="tab_Regras" for="tab3">Regras</label>
+            <label class="tab_regras" for="tab3">Regras</label>
             <div class="content_regras">
               <article class="ct_regras">
                 <div class="img_escada"></div>​
@@ -152,25 +153,19 @@
             <label class="tab_jogar" for="tab4">Jogar</label>
             <div class="content_jogar">
               <article class="ct_jogar">
-                <div id="adivinhar">
-                  <form class="form" action="adivinhar" method="POST">
-                    <p class="text_jogar">Insira um numero</p>
-                    <input name='number' type='number' style="
-                        padding: 10px; 
-                          width: 77px; 
-                          height: 38px; 
-                          position: relative;
-                          border: 2px solid red;
-                          border-radius: 4px ;">
-                    <button class="bt_sub" type='submit' style="
-                          height: 38px; 
-                          color:#fff;
-                          text-shadow: 2px 2px #000;
-                          border: 2px solid red;
-                          border-radius: 4px; 
-                          margin-bottom: 100px;">Enviar</button>
-                  </form>
+                <div class="container">
+                <p class="p_home_1">Insira um numero</p>
+                </div>​
+                <div class="container">
+                  <div class="img_box_game">
+                    <form class="form" action="adivinhar" method="POST">
+                      <input name='number' type='number' style="margin-top: 160px; width: 88px; height: 38px; position: relative; border: 2px solid red; border-radius: 4px ;">
+                      <button class="bt_sub" type='submit' style="height: 38px; color:#fff; text-shadow: 2px 2px #000; border: 2px solid red; border-radius: 4px; margin-bottom: 100px;">Enviar</button>
+                    </form>
+                  </div>
                 </div>
+                 
+
               </article>
             </div>
           </li>
