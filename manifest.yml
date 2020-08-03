@@ -1,0 +1,9 @@
+applications:
+- name: guessing-game
+  disk_quota: 1G
+  instances: 1
+  memory: 128M
+  routes:
+  - route: guessing-game.mybluemix.net
+  stack:
+  buildpack: python_buildpack
