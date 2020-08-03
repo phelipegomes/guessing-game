@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Fri Jul 24 2020 10:21:32 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* static/gamecookie.html
+* static/gamerandom.html
+* static/ganhou.html
+* static/index.html
+* static/maior.html
+* static/menor.html
+* static/perdeu.html
+
+
+Created files:
+* .autogit/logs/log-24-6-2020-9-51-23.txt
+
+
+Deleted files:
+
+
+Renamed files:

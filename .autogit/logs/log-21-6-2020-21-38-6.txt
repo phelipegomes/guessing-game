@@ -1,0 +1,65 @@
+-------------------- Auto-Git Log --------------------
+		Tue Jul 21 2020 21:38:06 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* static/css/bootstrap-reboot.css
+* static/css/cover.css
+* static/gamecookie.html
+* static/gamerandom.html
+* static/ganhou.html
+* static/index.html
+* static/maior.html
+* static/menor.html
+* static/perdeu.html
+
+
+Created files:
+* .autogit/autogit.json
+* static/backp/gamecookie.html
+* static/backp/gamerandom.html
+* static/backp/ganhou.html
+* static/backp/maior.html
+* static/backp/menor.html
+* static/backp/perdeu.html
+* static/css/mistery-box.css
+* static/img/bg_game.jpg
+
+
+Deleted files:
+* static/fonts/game-battles-2.ttf
+* static/fonts/game-battles.png
+* static/fonts/game-battles.ttf
+* static/fonts/license.txt
+* static/fonts/license2.txt
+* static/fonts/readme.txt
+* static/fonts/readme2.txt
+* static/img/Bety.psd
+* "static/img/WhatsApp Image 2020-07-20 at 19.46.33.jpeg"
+* "static/img/WhatsApp Image 2020-07-20 at 19.50.46.jpeg"
+* static/img/about_back.jpg
+* static/img/about_back.psd
+* static/img/about_back_c.jpg
+* static/img/abstract-black.jpg
+* static/img/backlose.jpg
+* static/img/backlose.png
+* static/img/basetry.psd
+* static/img/betty.png
+* static/img/betty.psd
+* static/img/betty_merged.png
+* static/img/bettyw.psd
+* static/img/ct.PNG
+* static/img/ctb.jpg
+* static/img/ctp.psd
+* static/img/ctr.jpg
+* static/img/logo.jpg
+* static/img/logo.png
+* static/img/logo.psd
+* static/img/submit.png
+* static/img/tonalidades.JPG
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]

@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 22 2020 18:11:53 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* static/css/cover.css
+* static/index.html
+
+
+Created files:
+* .autogit/logs/log-22-6-2020-17-41-43.txt
+* static/music/bg_music.wav
+* static/music/bg_music_animate.wav
+* static/music/bg_music_castel.wav
+* static/music/bg_music_main.wav
+
+
+Deleted files:
+
+
+Renamed files:
+* [object Object]

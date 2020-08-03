@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 22 2020 19:12:01 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* static/css/cover.css
+* static/index.html
+
+
+Created files:
+* .autogit/logs/log-22-6-2020-18-41-55.txt
+
+
+Deleted files:
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]

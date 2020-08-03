@@ -1,0 +1,6 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.pythonPath": "C:\\Users\\LabNote\\AppData\\Local\\Programs\\Python\\Python36\\python.exe"
+}

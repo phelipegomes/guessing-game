@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 22 2020 12:47:56 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* static/css/cover.css
+* static/css/mistery-box.css
+* static/index.html
+
+
+Created files:
+* .autogit/logs/log-22-6-2020-12-17-51.txt
+* static/img/bg.jpeg
+
+
+Deleted files:
+
+
+Renamed files:

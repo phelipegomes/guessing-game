@@ -1,0 +1,23 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 22 2020 16:41:32 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* static/css/cover.css
+* static/css/mistery-box.css
+* static/index.html
+
+
+Created files:
+* .autogit/logs/log-22-6-2020-13-48-10.txt
+* "static/fonts/New Super Mario Font U.ttf"
+* "static/fonts/Super Mario Bros. 2.ttf"
+* "static/img/Super Mario _Star Road_ postcard for Gallery 1988.png"
+
+
+Deleted files:
+* static/Super-Mario-64-DS.ttf
+* static/css/main.css
+
+
+Renamed files:

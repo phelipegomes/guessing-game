@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 23 2020 01:09:35 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* static/css/cover.css
+* static/index.html
+
+
+Created files:
+* .autogit/logs/log-22-6-2020-22-1-39.txt
+* static/img/bg_regras.jpg
+
+
+Deleted files:
+* static/img/home_bg_1.jpg
+
+
+Renamed files:

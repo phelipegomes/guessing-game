@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.bg--slide {
+  position: absolute;
+  top: 0;
+  width: calc(2560px * 3);
+  height: 100%;
+  background-image: url("https://jamesobrien.dev/codepen/background.jpg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  -webkit-animation: animate--slide 60s linear infinite;
+  animation: animate--slide 60s linear infinite;
+}
+
+.coin {
+  width: 45px;
+  height: 60px;
+  position: absolute;
+  top: 45%;
+  background-image: url("https://jamesobrien.dev/codepen/coin.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.coin-box__box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: linear-gradient(135deg, #dcba00 0%, #ffe65c 100%);
+  border: #f5d000 solid 5px;
+  border-top-color: #fff3b3;
+  border-bottom-color: #8f7900;
+  border-left-color: #ffdf29;
+  border-right-color: #ffe65c;
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.coin-box__text {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: "Press Start 2P";
+  font-size: 1.5em;
+  text-align: center;
+  text-shadow: 5px 2px 0 #262626;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-animation: animate--marquee 0s linear infinite;
+  animation: animate--marquee 0s linear infinite;
+}
+.coin-box__rivet {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  box-shadow: inset 2px 2px 2px 0 #262626;
+}
+.coin-box__rivet:first-child {
+  top: 0;
+  left: 0;
+}
+.coin-box__rivet:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+.coin-box__rivet:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+.coin-box__rivet:last-child {
+  bottom: 0;
+  right: 0;
+}
+
+.coin--pop {
+  -webkit-animation: animate--pop 1.3s ease;
+  animation: animate--pop 1.3s ease;
+}
+
+.coin-box--squeeze {
+  -webkit-animation: animate--squeeze 0.7s linear;
+  animation: animate--squeeze 0.7s linear;
+}
+
+@-webkit-keyframes animate--squeeze {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes animate--squeeze {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-webkit-keyframes animate--pop {
+  from {
+    -webkit-transform: translateY(0) rotateY(0deg);
+    transform: translateY(0) rotateY(0deg);
+  }
+  25% {
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+  50% {
+    -webkit-transform: translateY(-175px) rotateY(-180deg);
+    transform: translateY(-175px) rotateY(-180deg);
+  }
+  75% {
+    -webkit-transform: rotateY(-270deg);
+    transform: rotateY(-270deg);
+  }
+  to {
+    -webkit-transform: translateY(0) rotateY(-360deg);
+    transform: translateY(0) rotateY(-360deg);
+  }
+}
+@keyframes animate--pop {
+  from {
+    -webkit-transform: translateY(0) rotateY(0deg);
+    transform: translateY(0) rotateY(0deg);
+  }
+  25% {
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+  50% {
+    -webkit-transform: translateY(-175px) rotateY(-180deg);
+    transform: translateY(-175px) rotateY(-180deg);
+  }
+  75% {
+    -webkit-transform: rotateY(-270deg);
+    transform: rotateY(-270deg);
+  }
+  to {
+    -webkit-transform: translateY(0) rotateY(-360deg);
+    transform: translateY(0) rotateY(-360deg);
+  }
+}
+@-webkit-keyframes animate--marquee {
+  from {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  to {
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+  }
+}
+@keyframes animate--marquee {
+  from {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  to {
+    -webkit-transform: translate(-100%, 0);
+    transform: translate(-100%, 0);
+  }
+}
+@-webkit-keyframes animate--slide {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-2560px, 0, 0);
+    transform: translate3d(-2560px, 0, 0);
+  }
+}
+@keyframes animate--slide {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-2560px, 0, 0);
+    transform: translate3d(-2560px, 0, 0);
+  }
+}
+@media {
+  .coin-box__box {
+    width: 100%;
+    height: 55px;
+  }
+  .coin-box__text {
+    font-size: 1em;
+    position: relative;
+  }
+  .coin-box__rivet {
+    width: 5px;
+    height: 5px;
+  }
+
+  .coin {
+    width: 32px;
+    height: 48px;
+    top: 46%;
+  }
+}

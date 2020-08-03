@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Tue Jul 21 2020 22:08:12 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-21-6-2020-21-38-6.txt
+
+
+Deleted files:
+
+
+Renamed files:
