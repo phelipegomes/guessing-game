@@ -568,6 +568,25 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
   height: 250px;
 }
 
+.img_jogar_gamebox{
+    margin-right: 60px;
+    margin-top: 46px;
+    display: inline;
+    position: relative;
+    width: 87px;
+    height: 207px;
+    margin-left: 34px;
+}
+
+.img_jogar_imgbox{
+    margin-right: 8px;
+    margin-top: 5px;
+    display: inline;
+    position: relative;
+    width: 178px;
+    height: 105px;
+}
+
 
   /* texto */
 
