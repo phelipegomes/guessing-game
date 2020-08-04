@@ -535,6 +535,25 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
   margin-bottom: 16px;
 }
 
+.ct_betty{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #2AF598;
+  background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 100%);
+  height: 666px;
+  margin-bottom: 16px;
+}
+
+.youtube_betty{
+  margin-top: 20px;
+  border:0px solid #000;
+  border-radius:25px;
+  width:100%;
+  height:268px;
+}
+
+/* Imagens */
+
 .img_triangulo{
   margin-top: 20px;
   display: inline;
@@ -587,6 +606,15 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
     height: 105px;
 }
 
+.img_betty{
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 50px;
+}
 
   /* texto */
 
@@ -610,6 +638,17 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
     font-family: sness;
     line-height: 0.5cm;
 }
+
+.p_home_3{
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding-top : 20px;
+  font-size: 0.5cm;
+  font-family: sness;
+  padding:15px;
+  line-height: 0.5cm;
+}
+
   .text_content_2 {
     text-shadow: 2px 2px black;
     margin: 15px;
