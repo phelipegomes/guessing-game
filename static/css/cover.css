@@ -1,10 +1,297 @@
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+  /* NavBar */
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav_tabs {
+    text-align: center;
+    color: white;
+    font-family: "Press Start 2P";
+    text-shadow: 2px 2px black;
+    font-size: 0.5em;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .nav_tabs ul {
+    list-style: none;
+    position: relative;
+  }
+
+  .nav_tabs ul li {
+    float: left;
+
+  }
+
+  .nav_tabs label {
+    margin-top: 16px;
+    position: relative;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    background-color: #fce353;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .nav_tabs ul li {
+    display: block !important;
+    justify-content: center !important;
+    width: 25%;
+  }
+
+  .rd_tabs:checked~label {
+    background-color: #08AEEA;
+  }
+
+  .rd_tabs:checked~.content_home {
+    display: block;
+  }
+
+  .rd_tabs:checked~.content_betty {
+    display: block;
+  }
+
+  .rd_tabs:checked~.content_regras {
+    display: block;
+  }
+
+  .rd_tabs:checked~.content_jogar {
+    display: block;
+  }
+
+  .rd_tabs {
+    display: none;
+  }
+
+  .tab_betty{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+  }
+
+  .tab_home{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 5px;
+  }
+
+  .tab_regras{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .tab_jogar{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  ul {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+  }
+
+  /* Box Conteúdo */
+
+.content_home,
+.content_betty,
+.content_regras,
+.content_jogar {
+  border-top: 6px solid #08AEEA;
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.ct_regras{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #4531f5;
+  background-image: linear-gradient(0deg, #4531f5 0%, #08AEEA 100%);
+  height: 666px;
+  margin-bottom: 16px;
+}
+
+.ct_home{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #bceada;
+  background-image: linear-gradient(0deg, #bceada 0%, #08AEEA 100%);
+  height: 666px;
+  margin-bottom: 16px;
+}
+
+.ct_jogar{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #2AF598;
+  background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 100%);
+  height: 666px;
+  margin-bottom: 16px;
+}
+
+.ct_betty{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #2AF598;
+  background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 100%);
+  height: 666px;
+  margin-bottom: 16px;
+}
+
+.youtube_betty{
+  margin-top: 20px;
+  border:0px solid #000;
+  border-radius:25px;
+  width:100%;
+  height:268px;
+}
+
+/* Imagens */
+
+.img_triangulo{
+  margin-top: 20px;
+  display: inline;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.img_escada{
+  margin-top: 20px;
+  display: inline;
+  position: relative;
+  width: 95px;
+  height: 150px;
+}
+
+.img_gameboy{
+  margin-top: 25px;
+  display: inline;
+  position: relative;
+  width: 60px;
+  height: 110px;
+}
+
+.img_box_game{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
+
+.img_jogar_gamebox{
+    margin-right: 60px;
+    margin-top: 46px;
+    display: inline;
+    position: relative;
+    width: 87px;
+    height: 207px;
+    margin-left: 34px;
+}
+
+.img_jogar_imgbox{
+    margin-right: 8px;
+    margin-top: 5px;
+    display: inline;
+    position: relative;
+    width: 178px;
+    height: 105px;
+}
+
+.img_betty{
+  margin-top: 20px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 50px;
+}
+
+.img_jogar_menor{
+  margin-top: 47px;
+  display: inline;
+  position: relative;
+  width: 70px;
+  height: 124px;
+  margin-left: -122px;
+}
+
+.img_box_maior{
+  margin-top: 47px;
+  display: inline;
+  position: relative;
+  width: 70px;
+  height: 124px;
+  margin-left: -122px;
+}
+
+  /* texto */
+
+  p{
+    margin-bottom: 0.5rem;
+  }
+
+  .p_home_1{
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top :20px;
+    font-size: 0.8cm;
+    font-family: sness;
+  }
+
+  .p_home_2{
+    text-shadow: 2px 2px black;
+    text-align: center;
+    padding-top : 20px;
+    font-size: 0.5cm;
+    font-family: sness;
+    line-height: 0.5cm;
+}
+
+.p_home_3{
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding-top : 20px;
+  font-size: 0.5cm;
+  font-family: sness;
+  padding:15px;
+  line-height: 0.5cm;
+}
+
+  .text_content_2 {
+    text-shadow: 2px 2px black;
+    margin: 15px;
+    padding-top: 165px;
+    font-family: sness;
+    font-size: 11px;
+    letter-spacing: 5px;
+  }
+
+  /* Outros */
+
+  .bt_sub {
+    background-color: #f2cb02;
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 
   body {
     margin: 0;
     background: #00C9FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #00C9FF,  #92FE9D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to top, #00C9FF,  #92FE9D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   }
 
@@ -394,273 +681,3 @@ background: linear-gradient(to top, #00C9FF,  #92FE9D); /* W3C, IE 10+/ Edge, Fi
       float: right;
     }
   }
-
-  /* NavBar */
-
-  .nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-  }
-
-  .nav_tabs {
-    text-align: center;
-    color: white;
-    font-family: "Press Start 2P";
-    text-shadow: 2px 2px black;
-    font-size: 0.5em;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-
-  .nav_tabs ul {
-    list-style: none;
-    position: relative;
-  }
-
-  .nav_tabs ul li {
-    float: left;
-
-  }
-
-  .nav_tabs label {
-    margin-top: 16px;
-    position: relative;
-    margin-bottom: 0px;
-    width: 100%;
-    padding: 10px;
-    background-color: #fce353;
-    display: block;
-    cursor: pointer;
-    text-align: center;
-    padding: 15px;
-  }
-
-  .nav_tabs ul li {
-    display: block !important;
-    justify-content: center !important;
-    width: 25%;
-  }
-
-  .rd_tabs:checked~label {
-    background-color: #08AEEA;
-  }
-
-  .rd_tabs:checked~.content_home {
-    display: block;
-  }
-
-  .rd_tabs:checked~.content_betty {
-    display: block;
-  }
-
-  .rd_tabs:checked~.content_regras {
-    display: block;
-  }
-
-  .rd_tabs:checked~.content_jogar {
-    display: block;
-  }
-
-  .rd_tabs {
-    display: none;
-  }
-
-  .tab_betty{
-    border-top-right-radius: 15px;
-    border-top-left-radius: 5px;
-  }
-
-  .tab_home{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 5px;
-  }
-
-  .tab_regras{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-
-  .tab_jogar{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-
-  ul {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 1px;
-  }
-
-  /* Box Conteúdo */
-
-.content_home,
-.content_betty,
-.content_regras,
-.content_jogar {
-  border-top: 6px solid #08AEEA;
-  display: none;
-  position: absolute;
-  width: 100%;
-  left: 0;
-}
-
-.ct_regras{
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #4531f5;
-  background-image: linear-gradient(0deg, #4531f5 0%, #08AEEA 100%);
-  height: 666px;
-  margin-bottom: 16px;
-}
-
-.ct_home{
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #bceada;
-  background-image: linear-gradient(0deg, #bceada 0%, #08AEEA 100%);
-  height: 666px;
-  margin-bottom: 16px;
-}
-
-.ct_jogar{
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #2AF598;
-  background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 100%);
-  height: 666px;
-  margin-bottom: 16px;
-}
-
-.ct_betty{
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #2AF598;
-  background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 100%);
-  height: 666px;
-  margin-bottom: 16px;
-}
-
-.youtube_betty{
-  margin-top: 20px;
-  border:0px solid #000;
-  border-radius:25px;
-  width:100%;
-  height:268px;
-}
-
-/* Imagens */
-
-.img_triangulo{
-  margin-top: 20px;
-  display: inline;
-  position: relative;
-  width: 100px;
-  height: 100px;
-}
-
-.img_escada{
-  margin-top: 20px;
-  display: inline;
-  position: relative;
-  width: 95px;
-  height: 150px;
-}
-
-.img_gameboy{
-  margin-top: 25px;
-  display: inline;
-  position: relative;
-  width: 60px;
-  height: 110px;
-}
-
-.img_box_game{
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  display: inline-block;
-  width: 250px;
-  height: 250px;
-}
-
-.img_jogar_gamebox{
-    margin-right: 60px;
-    margin-top: 46px;
-    display: inline;
-    position: relative;
-    width: 87px;
-    height: 207px;
-    margin-left: 34px;
-}
-
-.img_jogar_imgbox{
-    margin-right: 8px;
-    margin-top: 5px;
-    display: inline;
-    position: relative;
-    width: 178px;
-    height: 105px;
-}
-
-.img_betty{
-  margin-top: 20px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  display: inline-block;
-  width: 70px;
-  height: 50px;
-}
-
-  /* texto */
-
-  p{
-    margin-bottom: 0.5rem;
-  }
-
-  .p_home_1{
-    text-shadow: 2px 2px black;
-    text-align: center;
-    padding-top :20px;
-    font-size: 0.8cm;
-    font-family: sness;
-  }
-
-  .p_home_2{
-    text-shadow: 2px 2px black;
-    text-align: center;
-    padding-top : 20px;
-    font-size: 0.5cm;
-    font-family: sness;
-    line-height: 0.5cm;
-}
-
-.p_home_3{
-  text-shadow: 2px 2px black;
-  text-align: center;
-  padding-top : 20px;
-  font-size: 0.5cm;
-  font-family: sness;
-  padding:15px;
-  line-height: 0.5cm;
-}
-
-  .text_content_2 {
-    text-shadow: 2px 2px black;
-    margin: 15px;
-    padding-top: 165px;
-    font-family: sness;
-    font-size: 11px;
-    letter-spacing: 5px;
-  }
-
-  /* Outros */
-
-  .bt_sub {
-    background-color: #f2cb02;
-  }
-
