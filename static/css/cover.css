@@ -229,12 +229,20 @@
 }
 
 .img_box_maior{
-  margin-top: 47px;
+  margin-top: 44px;
   display: inline;
   position: relative;
-  width: 70px;
-  height: 124px;
-  margin-left: -122px;
+  width: 80px;
+  height: 284px;
+  margin-left: -92px;
+}
+
+.img_jogar_ganhou{
+  margin-top: 57px;
+  display: inline;
+  position: relative;
+  width: 122px;
+  height: 92px;
 }
 
   /* texto */
@@ -266,6 +274,16 @@
   padding-top : 20px;
   font-size: 0.5cm;
   font-family: sness;
+  padding:15px;
+  line-height: 0.5cm;
+}
+
+.p_parabens{
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding-top : 20px;
+  font-size: 0.5cm;
+  font-family: Arial, Helvetica, sans-serif;
   padding:15px;
   line-height: 0.5cm;
 }

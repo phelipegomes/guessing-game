@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Tue Aug 04 2020 22:46:26 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+* static/css/cover.css
+* static/gamecookie.html
+* static/gamerandom.html
+* static/img/img_jogar_menor.png
+* static/maior.html
+* static/menor.html
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
